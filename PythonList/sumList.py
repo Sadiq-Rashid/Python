@@ -8,3 +8,9 @@ class List:
         return total_sum
 
     print(sumList(list))
+    
+    def multiplication(list):
+        total = 1
+        for x in list:
+            total = total *x
+        return total
